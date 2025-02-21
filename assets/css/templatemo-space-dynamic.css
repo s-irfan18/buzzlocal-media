@@ -126,12 +126,11 @@ ul {
 
 p {
   font-size: 13px;
-  line-height: 25px;
   color: #2a2a2a;
 }
 
 img {
-  width: 100%;
+  width: 120%;
   overflow: hidden;
 }
 
@@ -797,7 +796,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #fe3f40;
+    background: #F5C30B ;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -820,7 +819,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #fe3f40;
+    background: #F5C30B;
     border-radius: 50%;
 }
 
@@ -913,6 +912,14 @@ Banner Style
   position: relative;
 }
 
+.main-banner .right-image img{
+  width: 100% !important;
+}
+
+.our-services .left-image img{
+  width: 75% !important;
+}
+
 .main-banner .left-content form button {
   position: absolute;
   right: 10px;
@@ -982,18 +989,18 @@ About Us Style
 }
 
 .about-us .services .item .icon img {
-  max-width: 70px;
+  max-width: 80px;
 }
 
 .about-us .services .item h4 {
-  color: #fff;
+  color: #000000;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 12px;
 }
 
 .about-us .services .item p {
-  color: #fff;
+  color: #ffffff;
 }
 
 
@@ -1169,7 +1176,7 @@ Portfolio
 }
 
 .our-portfolio .showed-content img {
-  max-width: 100px;
+  max-width: 150px;
 }
 
 
