@@ -1599,6 +1599,7 @@ responsive
   .our-services .left-image {
     margin-right: 0px;
     margin-bottom: 45px;
+    text-align: center;
   }
   .our-services .section-heading h2,
   .our-services .section-heading p {
@@ -1661,7 +1662,11 @@ responsive
 
 @media (max-width: 767px) {
   .about-us .left-image {
-    bottom: -280px;
+    bottom: -250px;
+    text-align: center;
+    img{
+      width: 70%;
+    }
   }
   .our-blog .right-list {
     margin-left: 0px;
